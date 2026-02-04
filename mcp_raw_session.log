@@ -1,0 +1,25 @@
+2026-02-04 15:58:12,011 - DEBUG - asyncio - Using proactor: IocpProactor
+2026-02-04 15:58:17,354 - DEBUG - httpcore.connection - connect_tcp.started host='127.0.0.1' port=11434 local_address=None timeout=None socket_options=None
+2026-02-04 15:58:17,355 - DEBUG - httpcore.connection - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AADA9B7A10>
+2026-02-04 15:58:17,357 - DEBUG - httpcore.http11 - send_request_headers.started request=<Request [b'POST']>
+2026-02-04 15:58:17,358 - DEBUG - httpcore.http11 - send_request_headers.complete
+2026-02-04 15:58:17,359 - DEBUG - httpcore.http11 - send_request_body.started request=<Request [b'POST']>
+2026-02-04 15:58:17,360 - DEBUG - httpcore.http11 - send_request_body.complete
+2026-02-04 15:58:17,361 - DEBUG - httpcore.http11 - receive_response_headers.started request=<Request [b'POST']>
+2026-02-04 15:58:48,147 - DEBUG - httpcore.http11 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 04 Feb 2026 10:28:48 GMT'), (b'Content-Length', b'414')])
+2026-02-04 15:58:48,148 - INFO - httpx - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-04 15:58:48,148 - DEBUG - httpcore.http11 - receive_response_body.started request=<Request [b'POST']>
+2026-02-04 15:58:48,149 - DEBUG - httpcore.http11 - receive_response_body.complete
+2026-02-04 15:58:48,149 - DEBUG - httpcore.http11 - response_closed.started
+2026-02-04 15:58:48,149 - DEBUG - httpcore.http11 - response_closed.complete
+2026-02-04 15:58:48,162 - DEBUG - httpcore.http11 - send_request_headers.started request=<Request [b'POST']>
+2026-02-04 15:58:48,162 - DEBUG - httpcore.http11 - send_request_headers.complete
+2026-02-04 15:58:48,162 - DEBUG - httpcore.http11 - send_request_body.started request=<Request [b'POST']>
+2026-02-04 15:58:48,163 - DEBUG - httpcore.http11 - send_request_body.complete
+2026-02-04 15:58:48,163 - DEBUG - httpcore.http11 - receive_response_headers.started request=<Request [b'POST']>
+2026-02-04 15:58:55,004 - DEBUG - httpcore.http11 - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=utf-8'), (b'Date', b'Wed, 04 Feb 2026 10:28:55 GMT'), (b'Content-Length', b'332')])
+2026-02-04 15:58:55,004 - INFO - httpx - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2026-02-04 15:58:55,004 - DEBUG - httpcore.http11 - receive_response_body.started request=<Request [b'POST']>
+2026-02-04 15:58:55,004 - DEBUG - httpcore.http11 - receive_response_body.complete
+2026-02-04 15:58:55,005 - DEBUG - httpcore.http11 - response_closed.started
+2026-02-04 15:58:55,005 - DEBUG - httpcore.http11 - response_closed.complete
